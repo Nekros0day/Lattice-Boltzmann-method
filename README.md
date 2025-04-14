@@ -9,7 +9,6 @@ The code implements:
 - **Reaction Kinetics:** The simulation supports multiple reaction terms:
   - *Standard Allen–Cahn*: Uses \((\phi^3 - \phi)/\epsilon^2\).
   - *Mass-Conserving Allen–Cahn*: Adjusts the reaction term by subtracting its spatial mean to conserve mass.
-  - *Logistic Reaction*: An example reaction function that follows logistic growth dynamics.
 - **Initial Conditions:** A default smooth oval initial condition is provided, with the option to load a user-supplied condition from a file.
 
 The simulation parameters such as grid size, number of time steps, and reaction type are all configurable, making it easy to adapt for different research or educational needs.
